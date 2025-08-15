@@ -1,0 +1,61 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+img { 
+image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+image-rendering: -moz-crisp-edges;          /* Firefox                        */
+image-rendering: -o-crisp-edges;            /* Opera                          */
+image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+image-rendering: pixelated; /* Chrome */
+image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+/*set background per page*/
+.index-bg {
+    background-image: url("stars.gif");
+    background-attachment: fixed;
+    color: white;
+    font-family: Times;
+    text-align: center;
+    }
+  
+#coollinks, #coollinks th, #coollinks td, #coollinks tr {
+    border: 2px solid white;
+    border-collapse: collapse;
+    }
+
+#coollinks th, #coollinks td{
+    margin:0px;
+    padding: 0px;
+}
+
+figure {
+    padding: 0px;
+    margin:0px;
+}
+
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+} 

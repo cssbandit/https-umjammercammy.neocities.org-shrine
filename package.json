@@ -1,0 +1,24 @@
+{
+  "name": "cool-shrine",
+  "version": "1.0.0",
+  "description": "The Cool Shrine - A nostalgic retro shrine website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build process needed for static site'",
+    "start": "echo 'Static site - open shrine.html in browser'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssbandit/https-umjammercammy.neocities.org-shrine.git"
+  },
+  "keywords": [
+    "shrine",
+    "retro",
+    "nostalgic",
+    "anime",
+    "gaming",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT"
+}
