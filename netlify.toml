@@ -5,11 +5,11 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# Redirect rules
+# Redirect rules - instant redirect to shrine
 [[redirects]]
   from = "/"
   to = "/shrine.html"
-  status = 200
+  status = 301
 
 # Headers for better performance
 [[headers]]
