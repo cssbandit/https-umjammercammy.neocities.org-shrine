@@ -1,7 +1,7 @@
 {
-  "name": "cool-shrine",
+  "name": "meme-matsuri",
   "version": "1.0.0",
-  "description": "The Cool Shrine - A nostalgic retro shrine website",
+  "description": "Meme Matsuri メーム祭り - A nostalgic retro meme festival website",
   "main": "index.html",
   "scripts": {
     "build": "echo 'No build process needed for static site'",

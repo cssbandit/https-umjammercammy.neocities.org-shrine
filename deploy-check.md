@@ -24,7 +24,7 @@
 └── images/             # All image assets
     ├── freakytiki.gif
     ├── waligieweb.gif
-    └── shrine/         # Shrine-specific images
+    └── shrine/         # Festival-specific images
         ├── parappa*.webp
         ├── *.gif
         ├── *.png

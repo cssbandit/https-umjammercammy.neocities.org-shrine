@@ -1,6 +1,6 @@
-# The Cool Shrine
+# Meme Matsuri メーム祭り
 
-A nostalgic shrine website featuring various retro gaming and anime content.
+A nostalgic festival website featuring various retro gaming and anime memes.
 
 ## Deployment
 
